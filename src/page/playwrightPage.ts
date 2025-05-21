@@ -3,6 +3,7 @@ import { page } from '../_configs/hooks';
 import playwright from '../objetos/playwright';
 
 export async function abrirTelaInstalation() {  
+     
      await page.click(playwright.seletorBotaoGetStarted);
 }
 
